@@ -125,6 +125,8 @@
 }
 .gallery{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .gallery img{
     width: 360px;
