@@ -139,20 +139,23 @@
 }
 
 /*Services*/
-#services{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+#services {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
-.row{
-    display: flex;
+.row {
+  display: flex;
 }
-.box{
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    height: 450px;
-    border: 1px solid black;
-    margin: 10px;
-    /* border-radius: 5%; */
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  border: 1px solid black;
+  margin: 10px;
+  /* border-radius: 5%; */
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
 }
