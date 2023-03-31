@@ -160,4 +160,8 @@
   padding: 10px;
   background: linear-gradient(to top, rgba(255, 45, 45) 50%, white 50%);
   background-size: 100% 200%;
+  transition: all .8s;
+}
+.box:hover{
+  background-position: left bottom;
 }
