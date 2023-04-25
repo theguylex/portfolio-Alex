@@ -189,3 +189,11 @@
   align-items: center;
   margin: 20px 0px;
 }
+
+.input{
+  padding: 12px;
+  margin: 15px;
+  width: 30%;
+  border: none;
+  outline: none; 
+}
