@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /*Navbar*/
 .navbar {
   /* border:2px solid blue; */
