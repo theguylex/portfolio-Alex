@@ -22,3 +22,11 @@
     text-align: center;
     padding: 10px;
 }
+
+/* Contact*/
+.input{
+    width: 60%;
+}
+#msg{
+    width: 55%;
+}
