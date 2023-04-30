@@ -1,1 +1,9 @@
-/*scrren 442-701*/
+/*screen 442-701*/
+
+/*Home*/
+#home{
+    height: 820px;
+}
+.headings{
+    font-size: 1.7rem;
+}
