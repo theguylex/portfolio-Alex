@@ -36,8 +36,8 @@ html {
 }
 
 .navbar ul li a {
-  /* border: 1px solid yellowgreen; */
-  text-decoration: none;
+  /*border: 1px solid yellowgreen;
+  */text-decoration: none;
   color: white;
   padding: 8px 25px;
   transition: all 0.5s ease;
