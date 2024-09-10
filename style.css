@@ -9,6 +9,15 @@ html {
   /*for navbar navigation*/
 }
 
+.top {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
 
 /*Navbar*/
 .navbar {
@@ -16,9 +25,16 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: sticky;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* position: sticky; */
   top: 0;
+  width: 100%;
+}
+
+#menu-icon {
+  color: white;
+  font-size: 1.6rem;
+  display: none;
 }
 
 .navbar ul {
@@ -55,7 +71,7 @@ html {
   display: flex;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.5);
-  height: 840px;
+  height: 899px;
   justify-content: center;
   align-items: center;
   color: white;

@@ -1,17 +1,57 @@
 /*screen 442-701*/
 
-/*Home*/
-#home{
-    height: 820px;
+#menu-icon {
+    display: block;
+    cursor: pointer;
 }
+
+.navbar {
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    width: 48%;
+    padding: 1rem 3%;
+    background-color: rgba(0, 0, 0, .8);
+    transition: all .8s ease;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar ul li {
+    margin: 0px 1px;
+}
+
+.navbar ul li a {
+    line-height: 1px;
+    padding: 12px 20px;
+    font-size: 1.5rem;
+}
+
+.navbar a {
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: black;
+}
+
+.navbar.open {
+    left: 0px;
+}
+
+
+/*Home*/
+
 .headings{
     font-size: 1.7rem;
 }
 
 /*About*/
 #pic img{
-    width: 300px;
-    height: 175px;
+    width: 200px;
+    height: 255px;
 }
 #intro h2{
     font-size: 1.5rem;
